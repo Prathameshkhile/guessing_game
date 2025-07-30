@@ -1,0 +1,15 @@
+{
+  "name": "rust-guessing",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "rust_guessing_bg.wasm",
+    "rust_guessing.js",
+    "rust_guessing.d.ts"
+  ],
+  "main": "rust_guessing.js",
+  "types": "rust_guessing.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
