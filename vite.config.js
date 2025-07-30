@@ -8,11 +8,11 @@ export default defineConfig({
     viteStaticCopy({
       targets: [
         {
-          src: "rust-guessing/pkg",
+          src: "src/rust-guessing/pkg",
           dest: "", // Copies to dist/pkg
         },
       ],
     }),
   ],
-  base: "/<guessing_game>/", // Important for GitHub Pages
+  base: "/guessing_game/", // Important for GitHub Pages
 });
