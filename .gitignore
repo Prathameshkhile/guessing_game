@@ -7,6 +7,14 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Ignore Rust build output
+src/rust-guessing/target/
+src/rust-guessing/pkg/
+
+# Ignore general build outputs
+dist/
+node_modules/
+
 node_modules
 dist
 dist-ssr
