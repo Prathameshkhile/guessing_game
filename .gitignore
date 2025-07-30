@@ -10,7 +10,6 @@ lerna-debug.log*
 # Ignore Rust build output
 
 # Ignore general build outputs
-dist/
 node_modules/
 
 node_modules

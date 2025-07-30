@@ -8,11 +8,11 @@ export default defineConfig({
     viteStaticCopy({
       targets: [
         {
-          src: "src/rust-guessing/pkg",
-          dest: "", // Copies to dist/pkg
+          src: "src/rust-guessing/pkg/*", // include all files inside pkg
+          dest: "pkg", // ensures files go to dist/pkg
         },
       ],
     }),
   ],
-  base: "/guessing_game/", // Important for GitHub Pages
+  base: "/guessing_game/", // make sure this matches your repo name
 });
